@@ -106,3 +106,67 @@ footer img {
 	letter-spacing: 1px;
 	padding: 15px 0px;
 }
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.membership-image {
+	margin: 40px 0;
+	border: 2px solid #000000;
+
+
+}
+
+form {
+	margin: 40px 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+form label, form legend {
+	display: block;
+	font-family: arial;
+	font-size: 14px;
+	margin: 0 0 10px;
+}
+
+form legend {
+	padding: 10px 0;
+}
+
+.input-classic {
+	display: block;
+	margin: 0 0 20px;
+	padding: 6px 10px;
+	width: 250px;
+}
+
+fieldset select {
+	margin-bottom: 10px;
+}
+
+.checkbox {
+	margin: 10px 0;
+}
+
+.submit {
+	width: 50%;
+	padding: 15px 10px;
+	border: none;
+	background-color: #c2c2c2;
+	border-radius: 6px;
+	text-align: center;
+	transition: 0.5s ease;
+  	cursor: pointer;
+  	opacity: 0.8;
+  	margin-top: 10px;
+}
+
+.submit:hover  {
+  opacity: 1;
+}

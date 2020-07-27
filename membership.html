@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>THE BOYZ</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="images/logo_header.png" alt="The Boyz Logo"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="membership.html">Membership</a></li>
+						<li><a href="theboyz.html">Songs</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" class="input-classic" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-classic" required placeholder="xxxx@naver.com">
+
+				<label for="phone">Phone</label>
+				<input type="tel" id="phone" class="input-classic" required placeholder="(xx) xxxx-xxxx">
+
+				<label for="address">Address</label>
+				<textarea cols="20" rows="5" id="address" class="input-classic" required></textarea>
+
+				<fieldset>
+					<legend>Shipping Method</legend>
+
+					<label for="radio-ems"><input type="radio" value="ems" name="membership" id="radio-ems">EMS</label>
+					
+
+					<label for="radio-dhl"><input type="radio" value="dhl" name="membership" id="radio-dhl">DHL</label>
+					
+
+					<label for="radio-kpacket"><input type="radio" value="kpacket" name="membership" id="radio-kpacket">Kpacket</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Who is your favorite member?</legend>
+					<select>
+						<option>Sangyeon</option>
+						<option>Jacob</option>
+						<option>Younghoon</option>
+						<option>Hyunjae</option>
+						<option>Juyeon</option>
+						<option>Kevin</option>
+						<option>New</option>
+						<option>Q</option>
+						<option>Haknyeon</option>
+						<option>Sunwoo</option>
+						<option>Eric</option>
+
+					</select>
+				</fieldset>
+
+				<label><input type="checkbox" class="checkbox"> I agree with all Terms and Conditions</label>
+
+				<input type="submit" value="Submit" class="submit">
+				
+			
+			</form>
+
+			<img src="images/fanship.jpg" class="membership-image">
+
+		
+		</main>
+
+
+		<footer>
+			<img src="images/logo_footer.png" alt="The Boyz Logo">
+			<p class="copyright">&copy; rebsoo /2020</p>
+		</footer>
+
+	</body>
+</html>
