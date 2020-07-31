@@ -172,3 +172,21 @@ fieldset select {
 .submit:hover  {
   opacity: 1;
 }
+
+table {
+	font-family: arial;
+	text-align: center;
+	position: relative;
+	margin: 20px auto 40px auto;
+}
+
+thead {
+	background: #151581;
+	color: #FFFFFF;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+
+}
