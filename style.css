@@ -9,9 +9,13 @@ header {
 	margin: 0 auto;
 }
 
+.caixa img {
+	height: 120px;
+}
+
 nav {
 	position: absolute;
-	top: 76px;
+	top: 60px;
 	right: 0;
 }
 
@@ -24,7 +28,7 @@ nav a {
 	text-transform: uppercase;
 	color: #FFFFFF;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	text-decoration: none;
 	font-family: arial;
 	letter-spacing: 3px;
@@ -109,7 +113,7 @@ footer img {
 	padding: 15px 0px;
 }
 
-main {
+.tamanho-fixo {
 	width: 940px;
 	margin: 0 auto;
 }
@@ -189,4 +193,114 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 
+}
+
+/* css da página inicial */
+
+.banner {
+	width: 100%;
+
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 1em 0;
+	clear: left;
+	text-transform: uppercase;
+	font-family: 'Mukta', sans-serif;
+	color: #DD377D;
+
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-family: 'Varta', sans-serif;
+	line-height: 1.5;
+}
+
+.logo-z {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.video {
+	width: 560px;
+	margin: 3em auto;
+}
+
+.members {
+	background: #FFFFFF;
+}
+
+.members h3 {
+	padding: 1em 0;
+	margin-bottom: 0;
+}
+
+.members-image {
+	width: 290px;
+	border-radius: 5px;
+}
+
+.lista-members {
+	margin: 0 auto;
+
+}
+
+.lista-members li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+}
+
+.wrap {
+  position: relative;
+  height: 215px;
+  width: 290px;
+}
+
+.overlay-member {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(53, 182, 219, 0.8);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s, visibility .2s;
+  border-radius: 5px;
+}
+
+.wrap:hover .overlay-member {
+  visibility: visible;
+  opacity: 1;
+}
+
+.text-member {
+  transition: .2s;
+  transform: translateY(1em);
+  text-transform: uppercase;
+  font-family: arial;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wrap:hover .text-member {
+  transform: translateY(0);
+}
+
+.lista-final {
+	text-align: center;
+	margin-bottom: 20px;
 }
